@@ -19,7 +19,7 @@ export ARCH=arm ARCH_MTK_PLATFORM=mt6580
 #Or simply delete out directory to clean source
 
 #Defconfig for Wijo Lenny 3
-make -C $PWD O=$PWD/out ARCH=arm v3702_defconfig
+make -C $PWD O=$PWD/out ARCH=arm v3750_defconfig
 
 #Defconfig for Infinix Hot 2
 #make -C $PWD O=$PWD/out ARCH=arm x510_defconfig
